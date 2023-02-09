@@ -1,0 +1,513 @@
+/* Large devices  */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+  /* banar part  */
+
+  .banar_images picture img {
+    max-height: 372px;
+  }
+
+  /* banar part  */
+
+
+  /* footer part  */
+
+  .footer_addtress_item h5 {
+    padding-right: 102px;
+  }
+
+  /* footer part  */
+
+
+
+
+
+  /* portfolio  */
+
+
+
+  /* portfolio  */
+
+ 
+  /* animation  */
+
+
+}
+
+/* large device end  */
+
+
+
+/* ============================================================================= */
+
+/* Medium devices */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+  /* header part  */
+  .fa,
+  .fa-brands,
+  .fa-classic,
+  .fa-regular,
+  .fa-sharp,
+  .fa-solid,
+  .fab,
+  .far,
+  .fas {
+
+    color: #fff;
+    font-size: 30px;
+  }
+
+  .navbar-toggler {
+    border: none;
+
+  }
+
+
+
+  .nav-link {
+    margin-left: 50px;
+  }
+
+  .navbar {
+    background: linear-gradient(155deg, rgba(0, 0, 100), 45%, rgba(200, 0, 100));
+  }
+
+  /* header part end  */
+
+  /* banar part start  */
+
+
+  .banar_text_item p {
+    padding-top: 10px;
+    line-height: 15px;
+    font-size: 15px;
+  }
+
+  .banar_overly {
+
+    padding: 90px 0 0;
+
+  }
+
+  .banar_text_item h1 {
+    font-size: 34px;
+    line-height: 41px;
+  }
+
+  .banar_button_part {
+    text-align: center;
+  }
+
+  .banar_images picture img {
+    margin-top: 20px;
+    max-height: 423px;
+  }
+
+  /* banar part end */
+
+
+
+  /* SLIDER PART  */
+  .card_text_part h3 {
+
+    font-size: 15PX !important;
+
+  }
+
+  /* SLIDER PART  */
+
+/* pricing part start  */
+
+
+
+
+
+
+
+  /* contact part start  */
+
+
+
+
+
+
+  /* fortfolio part start */
+
+
+  /* fortfolio part  end*/
+  /* footer part start  */
+  .footer_addtress_item h5 {
+    padding-right: 116px;
+  }
+
+  .footer-ren {
+    margin-top: 25px;
+  }
+
+
+  .footer_tex_part {
+    text-align: center;
+
+  }
+
+  .footer_tex_part p {
+    padding: 20px 0px 20px 0;
+
+  }
+
+  .footer_item_icon {
+    text-align: center;
+  }
+
+  .footer_addtress_item h5 {
+    padding-right: 0px;
+    margin-bottom: 10px;
+  }
+
+  .adddre {
+    margin-top: 20px;
+    
+  }
+
+
+
+
+  /* footer part end */
+
+
+}
+
+/* medium device end  */
+
+/* ================================================================================== */
+/* Small devices */
+/* small device start  */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+  /* header part  */
+
+  .fa,
+  .fa-brands,
+  .fa-classic,
+  .fa-regular,
+  .fa-sharp,
+  .fa-solid,
+  .fab,
+  .far,
+  .fas {
+
+    color: #fff;
+    font-size: 30px;
+  }
+
+  .navbar-toggler {
+    border: none;
+
+  }
+
+
+
+  .nav-link {
+    margin-left: 50px;
+  }
+
+  .navbar {
+    background: linear-gradient(155deg, rgba(0, 0, 100), 45%, rgba(200, 0, 100));
+  }
+
+  /* header part end  */
+
+  /* banar part start  */
+
+
+  .banar_text_item p {
+    padding-top: 10px;
+    line-height: 15px;
+    font-size: 15px;
+  }
+
+  .banar_overly {
+
+    padding: 90px 0 0;
+
+  }
+
+  .banar_text_item h1 {
+    font-size: 34px;
+    line-height: 41px;
+  }
+
+  .banar_button_part {
+    text-align: center;
+  }
+
+  .banar_images picture img {
+    margin-top: 20px;
+    max-height: 423px;
+  }
+
+
+  /* banar part end */
+
+
+  
+
+  /* contact part start  */
+
+
+
+
+
+
+
+  /* contact part end */
+
+
+
+
+  /* fortfolio part start */
+  .person_part {
+    margin-bottom: 15px;
+  }
+
+  .offset_part {
+    margin-left: 0 !important;
+  }
+
+  /* fortfolio part  end*/
+
+
+
+  /* footer part start  */
+  .footer_addtress_item h5 {
+    padding-right: 116px;
+  }
+
+  .footer-ren {
+    margin-top: 25px;
+  }
+
+
+  .footer_tex_part {
+    text-align: center;
+
+  }
+
+  .footer_tex_part p {
+    padding: 20px 0px 20px 0;
+
+  }
+
+  .footer_item_icon {
+    text-align: center;
+  }
+
+  .footer_addtress_item h5 {
+    padding-right: 0px;
+    margin-bottom: 10px;
+  }
+
+  .adddre {
+    margin-top: 20px;
+    
+  }
+
+
+
+
+
+  /* footer part end */
+  
+
+}
+
+/* small device end  */
+
+
+
+
+
+
+
+
+/* ================================================================================ */
+
+
+/* Extra small devices  */
+/* start  */
+@media (min-width:320px) and (max-width: 575.98px) {
+
+
+
+  /* header part  */
+  .fa,
+  .fa-brands,
+  .fa-classic,
+  .fa-regular,
+  .fa-sharp,
+  .fa-solid,
+  .fab,
+  .far,
+  .fas {
+
+    color: #fff;
+    font-size: 30px;
+  }
+
+  .navbar-toggler {
+    border: none;
+
+  }
+
+
+  .nav-link {
+    margin-left: 50px;
+  }
+
+  .navbar {
+    background: linear-gradient(155deg, rgba(0, 0, 100), 45%, rgba(200, 0, 100));
+  }
+
+  .navbar-brand {
+    
+    font-size: 12px;
+    vertical-align: middle;
+    font-weight: 300;
+    
+}
+  .navbar-expand-lg .navbar-nav .nav-link::after {
+  
+    height: 0;
+    width: 2px;
+    background: #fff;
+    content: "";
+    right: -5px;
+    transition: .5s;
+    position: relative;
+
+}
+  /* header part end  */
+
+  /* banar part start  */
+
+
+  .banar_text_item p {
+    padding-top: 10px;
+    line-height: 15px;
+    font-size: 15px;
+  }
+
+  .banar_overly {
+
+    padding: 90px 0 0;
+
+  }
+
+  .banar_text_item h1 {
+    font-size: 35px;
+    line-height: 41px;
+  }
+
+  .banar_button_part {
+    text-align: center;
+  }
+
+  .banar_images picture img {
+    margin-top: 20px;
+    max-height: 243px;
+  }
+
+  /* banar part end */
+
+
+  
+
+
+
+
+  /* contact part start  */
+
+
+
+
+
+  /* contact part end */
+
+
+
+  /* fortfolio part start */
+  .person_part {
+    margin-bottom: 15px;
+  }
+
+  .offset_part {
+    margin-left: 0 !important;
+  }
+
+  /* fortfolio part  end*/
+  /* footer part start  */
+  .footer_addtress_item h5 {
+    padding-right: 116px;
+  }
+
+  .footer-ren {
+    margin-top: 25px;
+  }
+
+
+  .footer_tex_part {
+    text-align: center;
+
+  }
+
+  .footer_tex_part p {
+    padding: 20px 0px 20px 0;
+
+  }
+
+  .footer_item_icon {
+    text-align: center;
+  }
+
+  .footer_addtress_item h5 {
+    padding-right: 0px;
+    margin-bottom: 10px;
+  }
+
+  .adddre {
+    margin-top: 20px;
+    
+  }
+
+
+
+
+  /* footer part end */
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+/* end  */

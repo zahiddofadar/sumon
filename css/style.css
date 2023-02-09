@@ -1,0 +1,894 @@
+/* common css part start  */
+* {
+    /* box-sizing: border-box; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+span {
+    display: inline-block;
+}
+
+body {
+    background: #fbfbfb;
+
+
+}
+
+.bt {
+    border: none;
+}
+
+/* common css part end */
+
+/* nav bar css part start  */
+
+.navbar-brand img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.navbar-brand:hover {
+    color: rgba(192, 192, 192, 0.8);
+}
+
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 600;
+
+    word-spacing: -1px;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+
+
+}
+
+.navbar-expand-lg .navbar-nav .nav-link::after {
+    position: absolute;
+    height: 0;
+    width: 2px;
+    background: #fff;
+    content: "";
+    right: -5px;
+    transition: .5s;
+    /* position: relative; */
+
+}
+
+.navbar-expand-lg .navbar-nav .nav-link::before {
+    position: absolute;
+    height: 0;
+    width: 2px;
+    background: #fff;
+    content: "";
+    left: -5px;
+    transition: .5s;
+
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover::after {
+    position: absolute;
+    height: 17px;
+    content: "";
+
+}
+
+
+
+
+.navbar-expand-lg .navbar-nav .nav-link:hover::before {
+    position: absolute;
+    height: 17px;
+    content: "";
+
+
+
+
+
+}
+
+.navbar-expand-lg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+
+}
+
+
+
+.my_stick_bg {
+    background: linear-gradient(155deg, rgba(0, 0, 100), 45%, rgba(200, 0, 100));
+    animation-name: stiky;
+    animation-duration: 1s;
+    box-shadow: 0px 5px 12px -2px #000;
+    z-index: 9999;
+}
+
+@keyframes stiky {
+    from {
+        transform: translatey(-100px);
+    }
+
+    to {
+        transform: translatex(0);
+    }
+}
+
+
+
+
+/* nav bar css part end */
+
+/* banar css part start  */
+#banar_part {
+    background: url(../images/banar.jpg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 999;
+
+}
+
+
+.banar_overly {
+    background: linear-gradient(155deg, rgba(0, 0, 100, 0.9), 45%, rgba(200, 0, 100, 0.9));
+    padding: 200px 0 100px;
+    position: relative;
+
+}
+
+.bubble_animaton {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.bubble_animaton span {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background: rgba(79, 194, 220, 0.566);
+    margin: 0 40px;
+    border-radius: 100%;
+    box-shadow: 0 0 3px 10px #4fc3dc44, 0 0 50px#4fc3dc, 0 0 100px#4fc3dc;
+    animation: limon 20s linear infinite;
+
+    animation-duration: calc(300s/var(--i));
+}
+
+.bubble_animaton span:nth-child(even) {
+    background: rgba(255, 45, 118, 0.534);
+    box-shadow: 0 0 3px 10px #ff2d7544,
+        0 0 50px#ff2d75, 0 0 100px#ff2d75;
+
+
+
+}
+
+@keyframes limon {
+    0% {
+        transform: translateY(0) scale(0);
+
+    }
+
+    100% {
+        transform: translateY(-130vh) scale(0.7);
+
+    }
+}
+
+
+
+.banar_text_item h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 50px;
+}
+
+.banar_text_item span {
+    color: #C0C0C0;
+    font-family: 'New Rocker', cursive;
+}
+
+.banar_text_item p {
+    padding-top: 20px;
+    line-height: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.banar_button_part a span {
+    margin-top: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding: 10px 15px;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    margin-right: 20px;
+    letter-spacing: 3px;
+    transition: .5s;
+}
+
+.banar_button_part a span:hover {
+    border: 2px solid #fff;
+    background: #fff;
+    color: crimson;
+}
+
+.banar_images picture img {
+    max-height: 500px;
+
+}
+
+.banar_images {
+    position: relative;
+}
+
+
+/* banar css part end */
+
+/* app features css part start  */
+#app_features_part {
+    padding: 80px 0 60px;
+
+}
+
+.position {
+    position: relative;
+}
+
+.app_heading_item h2 {
+    padding: 20px 0 15px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    color: #060629;
+    text-transform: uppercase;
+}
+
+.app_heading_item p {
+    padding-bottom: 40px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #060629;
+    text-transform: capitalize;
+}
+
+.card_item {
+    box-shadow: 2px 2px 6px 3px rgba(0, 0, 0, 0.196);
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.card_icon_part i {
+    padding: 20px 0;
+    font-size: 40px;
+    color: #aa0028ee;
+}
+
+.card_text_part h3 {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 600;
+    color: #060629;
+    padding: 0 0 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card_text_part p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #060629;
+    padding: 0 40px 20px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 25px;
+}
+
+
+.aright {
+    color: rgba(195, 31, 31, 0.473);
+    cursor: pointer;
+    font-size: 40px;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    right: 20px;
+    top: 45%;
+    transform: translatey(-50%);
+    z-index: 99999;
+
+
+}
+
+
+.aleft {
+    cursor: pointer;
+    color: rgba(195, 31, 31, 0.562);
+    font-size: 40px;
+    height: 20px;
+    width: 20px;
+    left: -20px;
+
+    position: absolute;
+    top: 45%;
+    transform: translatey(-50%);
+    z-index: 99999;
+
+
+
+}
+
+.slick-dots {
+
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+
+}
+
+
+
+.slick-dots li button {
+    background: none;
+    height: 15px;
+    width: 15px;
+    border: none;
+    text-indent: -9999px;
+    border: 2px solid grey;
+    border-radius: 50%;
+
+
+}
+
+li.slick-active button {
+    height: 15px;
+    width: 15px;
+    border: 2px solid grey;
+    background: rgb(150, 93, 93);
+}
+
+
+
+/* app features css part end */
+
+/* how to work part css part start  */
+#how_to_work_item {
+    background: url(../images/pic1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.how_to_work_overly {
+    background: linear-gradient(155deg, #c80064e6, 45%, #000064e6);
+    padding: 90px 0 0px;
+}
+
+.how_to_work_head h5 {
+    padding: 0 0 15px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.how_to_work_head p {
+    padding: 0 0 25px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+
+}
+
+/* ===================== */
+.eye_icon {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.073);
+    box-shadow: 0 0 5px 4px rgba(0, 0, 0, 0.150);
+    margin-bottom: 20px;
+}
+
+
+
+
+.how_work_icon {
+    margin-right: 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: linear-gradient(155deg, #c80064, 45%, #000064);
+    position: relative;
+    transition: .5s;
+    cursor: pointer;
+
+}
+
+.how_work_icon:hover .white_aboulute {
+    background: transparent;
+
+}
+
+.how_work_icon:hover .white_aboulute i {
+    color: #fff;
+
+}
+
+
+
+
+
+
+
+.white_aboulute {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #fff;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: .5s;
+}
+
+.how_work_icon i {
+    font-size: 20px;
+    color: #aa0028ee;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: .5s color;
+
+}
+
+.eye_text h5 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.eye_text p {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    line-height: 20px;
+    padding-top: 20px;
+
+}
+
+
+
+
+
+
+/* how to work part css part end */
+
+
+/* back to top  */
+.back-to-top {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: linear-gradient(155deg, #e30c78, 45%, #0b0bb7);
+
+    cursor: pointer;
+}
+
+.back-to-top i {
+    font-size: 25px;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* back to top  */
+
+
+/* contact us css part start  */
+#contact_us_part {
+
+    background: linear-gradient(155deg, #0b0bb7, 45%, #e30c78);
+
+}
+
+.contact_overly {
+    padding: 80px 0 40px;
+    background: rgba(0, 0, 0, 0.652);
+}
+
+.container_head_part h2 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 20px;
+}
+
+.container_head_part p {
+    font-size: 13px;
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 30px;
+}
+
+
+
+/* icom part  */
+
+
+.contact_icon {
+    width: 60px;
+    height: 60px;
+    background: #fbfbfb;
+
+    border-radius: 76% 24% 22% 78% / 55% 51% 49% 45%;
+    position: relative;
+
+
+}
+
+.contact_icon_flex {
+    display: flex;
+}
+
+.contact_icon i {
+    color: #aa0028ee;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+.contact_text h5 {
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 15px;
+
+}
+
+.contact_text p {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    padding-bottom: 10px;
+
+
+
+}
+
+.line_height {
+    line-height: 10px;
+}
+
+
+
+
+
+/* contact us css part end */
+
+/* portfolio part start  */
+#portfolio {
+    padding: 80px 0 40px;
+}
+
+
+
+
+table {
+
+
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px -5px #555;
+    background: #fff;
+
+    width: 1320px;
+    margin: 0 auto;
+    padding: 10px;
+
+
+}
+
+@media (min-width:320px) and (max-width:575px) {
+
+    table {
+
+       width: 320px !important;
+
+    }
+
+    table thead tr td {
+
+
+        font-size: 8px !important;
+
+    }
+
+    table tbody tr td {
+
+        padding: 5px !important;
+        font-size: 8px;
+
+    }
+
+}
+@media (min-width:576px) and (max-width:768px) {
+
+    table {
+
+        width: 576px !important;
+
+    }
+
+    table thead tr td {
+
+
+        font-size: 10px !important;
+
+    }
+
+    table tbody tr td {
+
+        padding: 5px !important;
+        font-size: 10px;
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+table thead tr td {
+
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+table thead tr {
+    border-bottom: 2px solid #555;
+
+}
+
+
+
+table tbody tr td {
+
+    padding: 10px;
+
+
+}
+
+table tbody tr {
+    border-bottom: 2px dashed #555;
+
+}
+
+
+
+
+
+table tfoot tr td {
+
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+
+
+
+.portfolio_head_text p {
+    padding: 10px 0 20px;
+    font-size: 40px;
+    color: #060629;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+
+.person_part img {
+    width: 100%;
+    border-radius: 50%;
+    background: #c0c0c0;
+}
+
+.portfolio_item {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.portfolio_text h3 {
+    padding: 15px 0 20px;
+    font-size: 14px;
+    color: #060629;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+
+
+}
+
+.portfolio_text p {
+    padding-bottom: 10px;
+    font-size: 10px;
+    color: #555;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    line-height: 15px;
+    font-weight: 300;
+}
+
+
+
+.portfolio_icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: linear-gradient(155deg, #e30c49, 45%, #0b0bb7);
+    color: #fff;
+    position: relative;
+}
+
+.portfolio_icon i {
+    font-size: 15px;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: color 0.5s;
+}
+
+.portfolio_icon i:hover {
+    color: #4fc3dc;
+}
+
+
+
+
+
+/* portfolio part end */
+
+
+
+
+/* footer css part start  */
+#footter_part {
+    background: #151D4C;
+    padding: 60px 0 10px;
+}
+
+.footer_tex_part a h3 span {
+    text-transform: uppercase;
+    color: #C0C0C0;
+    font-family: 'New Rocker', cursive;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.footer_tex_part a h3 i {
+    text-transform: uppercase;
+    color: #C0C0C0;
+
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.footer_tex_part p {
+    padding: 20px 60px 20px 0;
+    color: #fff;
+    line-height: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.footer_item_icon a i {
+    color: #fff;
+    font-size: 25px;
+    margin-left: 10px;
+    transition: color .5s;
+}
+
+.footer_item_icon a i:hover {
+    color: cyan;
+
+}
+
+.footer_tex_part h3 {
+    text-transform: uppercase;
+    color: #fff;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.footer_addtress_item h5 {
+    color: #fff;
+    line-height: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    padding-right: 200px;
+
+
+}
+
+
+
+/* footer css part end */
